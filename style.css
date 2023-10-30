@@ -1,0 +1,101 @@
+h1 {
+	color: red;
+}
+/* styles.css */
+ 
+header li{list-style-type:none }
+header ul a{
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 120%;
+	color:white;
+}
+header ul a:link, header ul a:visited{
+	background-color: #37b8d1
+}
+header ul a:hover{
+	background-color: #0052a4
+}
+footer i{
+	font-size: 400%;
+	margin: 5%;
+}
+footer a:link, footer a:visited{color:orange;}
+footer a:hover{color:red;}
+ 
+h1{
+	flex-basis: 100%;
+}
+img {
+	max-width: 60%;
+}
+body{
+	font-family: 'Mooli', sans-serif;
+}
+h1,h2{
+	font-family: 'Fuggles', cursive;
+}
+.video{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	position: relative;
+}
+.video iframe{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+th,td{
+	border: 1px solid gray;
+	text-align: center;
+}
+th{
+	background-color: red;
+}
+header{
+	position: sticky;
+	width: 100%;
+	background-color: whitesmoke;
+	top: 0;
+}
+header img{
+	filter: grayscale(100%);
+}
+header img:hover{
+	filter: grayscale(0%);
+}
+.fa-arrow-up{
+	background: red;
+	padding: 20px;
+	border-radius: 50%;
+	right: 20px;
+	bottom: 20px;
+	position: fixed; right: 20px;bottom: 20px
+}
+html{
+	scroll-behavior: smooth;
+}
+.container{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+
+*{transition: 1s}
+header img:hover{transition: rotate(360deg);}
+article img:hover{transform: scale(1.2);}
+header{
+	align-items: flex-end;
+}
